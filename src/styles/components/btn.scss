@@ -1,0 +1,8 @@
+%btn {
+  background: #000;
+}
+
+button, .btn,
+button[type="submit"] {
+  @extend %btn;
+}

@@ -1,0 +1,52 @@
+// Body
+//
+// Settings for the `<body>` element.
+$body-color:    $red;
+$body-bg:     $white;
+
+$enable-pointer-cursor-for-buttons:           true;
+
+// Components
+//
+// Define common padding and border radius sizes and more.
+$line-height-lg:              1.5;
+$line-height-sm:              1.5;
+
+$border-width:                1px;
+$border-color:                $black;
+
+$border-radius:               .25rem;
+$border-radius-lg:            .3rem;
+$border-radius-sm:            .2rem;
+
+$rounded-pill:                50rem;
+
+$box-shadow-sm:               0 .125rem .25rem rgba($black, .075);
+$box-shadow:                  0 .5rem 1rem rgba($black, .15);
+$box-shadow-lg:               0 1rem 3rem rgba($black, .175);
+
+$transition-base:             all .2s ease-in-out;
+$transition-fade:             opacity .15s linear;
+$transition-collapse:         height .35s ease;
+
+// Links
+//
+// Style anchor elements.
+$link-color:                              $primary;
+$link-decoration:                         none;
+$link-hover-color:                        darken($link-color, 15%);
+$link-hover-decoration:                   underline;
+
+// Paragraphs
+//
+// Style p element.
+$paragraph-margin-bottom:   1rem;
+
+// Tables
+//
+// Customizes the `.table` component with basic values, each used across all table variations.
+$table-cell-padding:          .75rem;
+$table-caption-color:         $text-muted;
+
+// Forms
+$label-margin-bottom:                   .5rem;

@@ -1,0 +1,31 @@
+// Variables
+@import "settings/_vars/grid";
+@import "settings/_vars/utilities";
+@import "settings/_vars/colors";
+@import "settings/_vars/fonts";
+@import "settings/_vars/base";
+
+// Grid
+@import "~bootstrap-scss/bootstrap-grid";
+
+// bootstrap-scss helpers (utilities && mixins)
+@import "~bootstrap-scss/mixins";
+@import "~bootstrap-scss/utilities";
+@import "~bootstrap-scss/bootstrap-reboot";
+
+// Mixins
+@import "settings/_mixins/clearfix";
+// Animations
+// @import "settings/_animations/xxx";
+
+// Basics
+@import "settings/basics/fonts";
+
+// Components
+@import "components/btn";
+
+// Modules
+// @import "modules/example.video-box";
+
+// Layouts
+// @import "layouts/example.video-page";
